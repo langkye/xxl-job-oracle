@@ -1,7 +1,47 @@
+######################## IDEA #######################
 .idea
+**/*.iml
+**/target
 .classpath
 .project
-*.iml
-target/
-.DS_Store
 .gitattributes
+
+######################## ECLIPSE ####################
+
+######################## VSCODE #####################
+.vscode
+
+######################## JAVA #######################
+**/*.war
+**/*.class
+**/*.jar
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+######################## WEB #######################
+**/.node_modules/
+
+######################## LOG #######################
+**/*.log
+
+######################## COMPRESSED ################
+**/*.ear
+**/*.zip
+**/*.rar
+**/*.gzip
+**/*.tar
+**/*.gz
+**/*.tar.gz
+
+######################## TEMP #######################
+*.tmp
+
+######################## OTHER ######################
+# virtual machine crash logs,
+#   see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+run/
+deployments/
+build/
+**/*.gradle
+**/.DS_Store
